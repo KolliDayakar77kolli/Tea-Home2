@@ -1,0 +1,41 @@
+/* landing */
+
+#landing{
+    /* margin-top: 70px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+#landing-left{
+    width: 45%;
+    transform: translateX(60px);
+}
+#landing-left > h1{
+    font-size: 70px;
+}
+#landing-left > p{
+    max-width: 500px;
+    line-height: 25px;
+    font-weight: 400;
+}
+#landing-right{
+    width: 45%;
+    /* transform: translate(20px,60px); */
+}
+#btn-list{
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-list-card{
+    max-width: 60%;
+    background-color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    margin-top: 15px;
+    padding: 15px 10px;
+}
+/* landing */
