@@ -35,6 +35,16 @@
     margin-bottom: 5px;
 
 }
+.arrow-div{
+    position: absolute;
+    left: 46.7%;
+    transform: translateY(-297px);
+}
+#arrow-div3{
+    position: absolute;
+    left: 46.7%;
+    transform: translateY(-290px);
+}
 #our-menu{
     text-align: center;
     font-family: kaushan script,cursive;
@@ -68,3 +78,15 @@
 }
 
 /* parallox */
+
+@media(max-width:480px){
+    .parallox{
+        margin-top: 50px;
+    }   
+    .arrow-div{
+        margin-left: -30px;
+    }
+    #arrow-div3{
+        margin-left: -25px;
+    }
+}

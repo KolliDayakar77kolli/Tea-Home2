@@ -168,3 +168,32 @@ p {
 }
 
 /* card 2 */
+
+
+@media(max-width : 480px){
+  .tabContainer .buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+  }
+  .tabContainer .buttonContainer button{
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  .card__2{
+      width: 65%;         
+  }
+  .card__image__2{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+  }
+  .tabContainer .tabPanel{
+    margin-top: -75px;
+  }
+}

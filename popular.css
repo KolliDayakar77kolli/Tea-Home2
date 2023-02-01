@@ -6,7 +6,6 @@
     margin-left: 100px;
     font-family: kaushan script,cursive;
 }
-
 .card {
     position: relative;
     width: 78%;
@@ -109,7 +108,7 @@
         margin-bottom: 100px;
     }
     #news-slider{
-        transform: translateY(-7%);
+        transform: translateY(7%);
     }
     .card__image {
         width:330px;
