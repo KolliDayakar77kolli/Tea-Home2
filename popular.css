@@ -4,6 +4,7 @@
 
 #popular-header-h2{
     margin-left: 100px;
+    font-family: kaushan script,cursive;
 }
 
 .card {
@@ -102,3 +103,25 @@
 
 /* popular */
 
+@media(max-width:480px){
+    #popular-header-h2{
+        transform: translateX(-55px);
+        margin-bottom: 100px;
+    }
+    #news-slider{
+        transform: translateY(-7%);
+    }
+    .card__image {
+        width:330px;
+        height:330px;
+        border-radius: 50%;
+        transform:translateX(10%);
+    }
+    .card__info__h2{
+        font-size: 16px;
+    }
+    .card__info__p{
+        font-size: 16px;
+        margin-top: 4px;
+    }
+}

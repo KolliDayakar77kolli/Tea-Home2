@@ -9,6 +9,7 @@
     
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7CKaushan+Script%7CRaleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!-- google font -->
 
     <!-- jquery -->
@@ -66,7 +67,9 @@
   <body>
     <header>
       <div id="left-header">
-        <h2 id="title-h">Tea Home</h2>
+        <div id="logo-div">
+          <img id="logopic" src="/p/logopic.png" alt="logopic" />
+        </div>
       </div>
       <div id="hamburger">
         <i class="fa fa-bars menu-icon"></i>
@@ -84,14 +87,14 @@
       <!-- landing section -->
       <div id="landing">
         <div id="landing-left">
-          <h1>We Serve The Test You Love</h1>
+          <h1>We Serve The Taste You Love</h1>
           <p>
             This is a type of cafe which typically serves tea and coffee, in
             addition to light refreshments such as coolers, ice
             creams,shakes,special shakes. The term comes from rench word meaning
             food.
           </p>
-          <button class="btn">Explore Menu</button>
+          <button class="btn" id="explore-btn">Explore Menu</button>
         </div>
 
         <div id="landing-right">
@@ -121,29 +124,14 @@
       <!-- parallox -->
       <section class="parallox">
         <div class="parallox-inner">
-          <div class="parallox-inner-content">
-            <div class="icon-box">
-              <i class="fa fa-shopping-bag" style="font-size:100px;color:white"></i>
-              <h1>50+</h>
-              <h3>Products</h3>
-            </div>
-            <div class="icon-box">
-              <i class="fa fa-smile-o" style="font-size:100px;color:white"></i>
-              <h1>500+</h>
-              <h3>Satisfied Customers</h3>
-            </div>
-            <div class="icon-box">
-              <i class="fa fa-rupee" style="font-size:100px;color:white"></i>
-              <h1>$</h>
-              <h3>Best Price</h3>
-            </div>
+            <h1 id="Taste-the-best">Taste the best</h1>
+            <h1 id="our-menu">Discover Our Menu</h1>
           </div>
         </div>
       </section>
       <!-- parallox -->
 
       <!-- tab section -->
-      <h1 id="our-menu">Our Menu</h1>
       <div class="tabContainer">
       <div class="buttonContainer">
           <button onclick="showPanel(0,'rgb(255, 178, 107)')">Tea</button>
@@ -155,17 +143,17 @@
       </div>
       
       <div class="tabPanel">
-              <section class="section__2">
-                  <div class="container__2">
-                    <div id="tea-wrapper"></div>
-                  </div>
-              </section>
+        <section class="section__2">
+            <div class="container__2">
+              <div class="menu-wrapper-styles" id="tea-wrapper"></div>
+            </div>
+        </section>
       </div>
   
       <div class="tabPanel">
         <section class="section__2">
           <div class="container__2">
-            <div id="milk-wrapper"></div>
+            <div class="menu-wrapper-styles" id="milk-wrapper"></div>
           </div>
         </section>
       </div>
@@ -173,7 +161,7 @@
       <div class="tabPanel">
         <section class="section__2">
           <div class="container__2">
-            <div id="shakes-wrapper"></div>
+            <div class="menu-wrapper-styles" id="shakes-wrapper"></div>
           </div>
         </section>
       </div>
@@ -181,7 +169,7 @@
       <div class="tabPanel">
         <section class="section__2">
           <div class="container__2">
-            <div id="ice-wrapper"></div>
+            <div class="menu-wrapper-styles"  id="ice-wrapper"></div>
           </div>
         </section>
       </div>
@@ -189,7 +177,7 @@
       <div class="tabPanel">
         <section class="section__2">
           <div class="container__2">
-            <div id="coolers-wrapper"></div>
+            <div class="menu-wrapper-styles" id="coolers-wrapper"></div>
           </div>
         </section>
       </div>
@@ -197,7 +185,7 @@
       <div class="tabPanel">
         <section class="section__2">
           <div class="container__2">
-            <div id="sp-wrapper"></div>
+            <div class="menu-wrapper-styles" id="sp-wrapper"></div>
           </div>
         </section>
       </div>
@@ -207,7 +195,7 @@
 
       <!-- parallox -->
       <section class="parallox">
-        <div class="parallox-inner">
+        <div class="parallox-inner-2">
           <div class="parallox-inner-content">
             <div class="icon-box">
               <i class="fa fa-shopping-bag" style="font-size:100px;color:white"></i>
@@ -271,7 +259,9 @@
     </main>
 
     <footer>
-      <h2 id="title-h">Tea Home</h2>
+      <div id="footer-logo-div">
+        <img id="footer-logopic" src="/p/logopic.png" alt="logopic" />
+      </div>
       <hr>
       <br>
       <br>
@@ -283,7 +273,7 @@
             <p>+91 9861292067,7077806097</p>
         </div>
 
-        <div>
+        <div class="footer-links">
           <h1>Quick Links</h1>
           <p>Menu</p>
           <p>popular</p>
@@ -291,7 +281,7 @@
           <p>Blogs</p>
         </div>
 
-        <div>
+        <div class="footer-links">
           <h1>Social Media</h1>
           <p>facebook</p>
           <p>Twitter</p>

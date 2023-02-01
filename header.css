@@ -17,18 +17,17 @@ header{
 header.active{
     box-shadow: 0 0 8px rgba(0,0,0,0.7);  
 }
-/* #hamburger{
-    background-color: green;
+#hamburger{
+    display: none;
 }
 .menu-icon{
-    /* color: red; */
-/* }  */
-#left-header{
-    margin-left: 100px;
-}
-#title-h{
     font-size: 25px;
-    font-weight: 700;
+}
+#left-header{
+    margin-left: 80px;
+}
+#logopic{
+    height: 80px;
 }
 #right-header{
     margin-right: 100px;
@@ -39,13 +38,33 @@ header.active{
     margin-right: 50px;
     text-decoration: none;
     font-weight: 600;
+
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    /* line-height: 100px; */
 }
 .btn{
     border: none;
     font-weight: 600;
     padding: 10px 25px;
     background-color: rgb(255, 178, 107);
-    border-radius: 15px;
     
 }
 /* header */
+
+
+
+
+@media(max-width: 480px){
+    #hamburger{
+        display: block;        
+        transform: translateX(-50px);
+    }
+    #logopic{
+        transform: translateX(-50px);
+    }
+    #right-header{
+        display: none;
+    }
+}

@@ -48,7 +48,7 @@ function createcard2(name, price, isCategory, isPopular, preview) {
 
   var productprice = document.createElement("h3");
   productprice.className = "card__price";
-  productprice.innerText = price;
+  productprice.innerText = price + " " + "Rs";
 
   infodiv.appendChild(productname);
   infodiv.appendChild(productdesc);
