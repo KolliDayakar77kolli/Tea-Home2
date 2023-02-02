@@ -12,7 +12,7 @@ footer{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 #footer-wrapper{
     display: flex;
@@ -121,3 +121,19 @@ footer{
     text-align: center;
 }
 /* footer */
+
+
+@media(max-width:480px){
+    footer{
+        height: 450px;
+    }
+    #footer-address-wrapper{
+        transform: translateX(-12%);
+    }
+    #locate-btn-div{
+        transform: translateX(25%);
+    }
+    .footer-links{
+        display: none;
+    }
+}

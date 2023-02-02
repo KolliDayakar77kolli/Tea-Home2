@@ -7,14 +7,13 @@
 #swiper-section{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 30px;
     position: relative;
-    width: 70%;
+    width: 100%;
     min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2196f3;
     overflow: hidden;
 }
 .swiper-container {
@@ -27,7 +26,7 @@
     background-size: cover;
     width: 320px;
     box-shadow: 0 15px 50px rgba(0,0,0,0.2);
-    filter: blur(4px);
+    filter: blur(3px);
     background-color: #d1ebff;
     border-radius: 10px;
 }
@@ -50,9 +49,12 @@
     opacity: 0.2;
 }
 .testimonialBox .swiper-details{
+    transform: translateY(-40px);
     display: flex;
+    width: 100%;
+    margin-left: -20px;
     align-items: center;
-    margin-trim: 20px;
+    justify-content: space-evenly;
 }
 .testimonialBox .swiper-details .imgBx{
     position: relative;
@@ -71,17 +73,49 @@
     object-fit: cover;
 }
 .testimonialBox .swiper-details .swiper-details-h3{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 800;
     letter-spacing: 1px;
     color: #2196f3;
     line-height: 1.1em;
+    margin-top: -30px;    
 }
 .testimonialBox .swiper-details .swiper-details-h3 span{
     font-size: 12px;
     color:  #666;
 }
+.swiper-content{
+    margin-top: 40px;
+}
+.swiper-content > p{
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 700;
+    opacity: 0.6;
+    transform: translateY(-40px);
+
+
+}
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right{
     background-image: none;
+}
+
+
+
+@media(max-width : 480px){
+    .testimonialBox {
+        height: 400px;
+    }
+    .swiper-content > p{
+        font-size: 15px;
+    }
+    .swiper-container {
+        width: 80%;
+
+    }
+    #quote-icon{
+        transform: translateX(15px);
+    }
 }

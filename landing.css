@@ -26,6 +26,7 @@
 }
 .btn{
     margin-top: 20px;
+    border-radius: 50px;
 }
 #btn-list{
     width: 50%;
@@ -96,5 +97,6 @@
     }   
     #explore-btn{
         font-size: 16px;
+        border-radius: 50px;
     }
 }
